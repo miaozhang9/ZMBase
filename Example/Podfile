@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZMBase_Example' do
+  pod 'ZMBase', :path => '../'
+
+  target 'ZMBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
