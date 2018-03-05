@@ -62,7 +62,7 @@ extension DismissAnimation:CAAnimationDelegate {
         fromView.layer.mask = maskLayer
         let path1 = UIBezierPath(ovalIn: CGRect(x: toView.frame.size.width/2, y: toView.frame.size.height/2, width: 20, height: 20)).cgPath
         
-        let path2 = UIBezierPath(arcCenter: containerView.center, radius: fromView.bounds.height , startAngle: 0, endAngle: CGFloat(M_PI * 2.0), clockwise: true).cgPath
+        let path2 = UIBezierPath(arcCenter: containerView.center, radius: fromView.bounds.height , startAngle: 0, endAngle: CGFloat((Double.pi * 2.0)), clockwise: true).cgPath
         
         maskLayer.path = path1
         let animation = addAnimationTo(fromValue: path2, toValue: path1, transitionContext: transitionContext)
