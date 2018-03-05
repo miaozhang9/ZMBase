@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import ZMBase
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        self.view.backgroundColor = 0x123456.color
+        SpringAnimation.springEaseIn(duration: 0.5) {
+            
+        }
+      
+       
     }
 
     override func didReceiveMemoryWarning() {
