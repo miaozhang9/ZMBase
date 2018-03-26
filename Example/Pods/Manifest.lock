@@ -1,11 +1,14 @@
 PODS:
   - SnapKit (3.2.0)
+  - SocketRocket (0.5.1)
   - Then (2.3.0)
   - ZMBase (0.1.0):
     - SnapKit (~> 3.2.0)
+    - SocketRocket (~> 0.5.1)
     - Then (~> 2.3.0)
 
 DEPENDENCIES:
+  - SocketRocket
   - ZMBase (from `../`)
 
 EXTERNAL SOURCES:
@@ -14,9 +17,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
   Then: ee21c97b85ff6062b9b0080c9abb1eea46743345
-  ZMBase: 6ae8672def8cf68194a2b7055f882d4781223da0
+  ZMBase: 138c7a1a5b5522de7cfa65abe17803fe4ce132f3
 
-PODFILE CHECKSUM: 38e79a0a646b51ed20cd5b2a148dc2cb2169ac39
+PODFILE CHECKSUM: 7d46d6bafa9cf8a50334b182726df83b871d2294
 
 COCOAPODS: 1.4.0

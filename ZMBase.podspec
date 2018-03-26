@@ -41,6 +41,7 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'ZMBase' => ['ZMBase/Assets/*.png']
   # }
+  
   #源码头文件配置
   # s.public_header_files = 'Pod/Classes/**/*.h'
   #系统框架依赖
@@ -49,4 +50,6 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
    s.dependency 'SnapKit', '~> 3.2.0'
    s.dependency 'Then', '~> 2.3.0'
+   s.dependency 'SocketRocket', '~> 0.5.1'
+   
 end

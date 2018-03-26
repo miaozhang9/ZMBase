@@ -6,6 +6,7 @@ target 'ZMBase_Example' do
   target 'ZMBase_Tests' do
     inherit! :search_paths
 
+    pod 'SocketRocket'
     
   end
 end
