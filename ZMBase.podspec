@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   #库名 
   s.name             = 'ZMBase'
   #库版本
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   #库简短描述
   s.summary          = 'A short description of ZMBase.'
 
