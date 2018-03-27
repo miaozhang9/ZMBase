@@ -27,3 +27,7 @@ miaozhang9, 395052985@qq.com
 ## License
 
 ZMBase is available under the MIT license. See the LICENSE file for more info.
+
+## Update Version
+0.1.0   init
+0.1.1  add WebSocketLib库 Swift版
